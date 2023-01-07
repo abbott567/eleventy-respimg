@@ -8,6 +8,8 @@ It turns [config](https://www.11ty.io/docs/config/) like this:
 eleventyConfig.cloudinaryCloudName = 'your-cloud-name-here';
 eleventyConfig.srcsetWidths = [ 320, 640, 960, 1280, 1600, 1920, 2240, 2560 ];
 eleventyConfig.fallbackWidth = 640;
+eleventyConfig.classList = 'imgClass1 imgClass2';
+eleventyConfig.lazyLoad = true; // Optional boolean to configure native browser image lazy loading
 ```
 
 and [shortcodes](https://www.11ty.io/docs/shortcodes/) like this:
